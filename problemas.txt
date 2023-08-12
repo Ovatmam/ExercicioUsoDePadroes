@@ -1,0 +1,5 @@
+A classe motor poderia ser uma interface, que teria a classe "Motor normal", "Motor Flex", etc.
+
+Usar interfaces funcionais (lambda) no tanque de combustível por exemplo.
+
+O cálculo de combustível necessário estava errado, ele calculava com int e não double.
