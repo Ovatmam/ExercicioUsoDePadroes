@@ -45,6 +45,10 @@ public class Motor {
 
     public void percorre(int distancia) {
         quilometragem += distancia;
+        if(consumos[0] > 10) {
+            int desgaste = quilometragem / 5000;
+            consumos[0] = 20 - desgaste;
+        }
     }
 
     public void combustivelAtivo(TipoCombustivel combustivelAbastecido) {

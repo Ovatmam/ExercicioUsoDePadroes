@@ -1,4 +1,9 @@
 # Patch Notes
+Versão 0.5
+   - Instanciação de novo objeto Carro do tipo Econo, é movido a gasolina, consome 20 Km/lt, e o tanque tem capacidade para 55 litros. O consumo deste quando novo é de 20 Km/litro, porém este consumo reduz 1 Km/litro a cada 5000 Km até que se estabiliza em 10 Km/litro.
+   - A função "Percorre" da classe Motor agora troca desgasta conforme a distância percorrida, até se estabilizar em 10 Km/lt.
+
+
 Versão 0.4
    - Instanciação de novo objeto Carro do tipo SUV, é FLEX, consome 8 Km/lt na gasolina e 6 Km/lt no etanol, e o tanque tem capacidade para 65 litros.
    - A classe Carro agora tem sobrecarga de construtor, para quando um Carro Flex possuir consumos diferentes entre gasolina e etanol.
