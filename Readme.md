@@ -1,4 +1,17 @@
 # Patch Notes
+Versão 0.4
+   - Instanciação de novo objeto Carro do tipo SUV, é FLEX, consome 8 Km/lt na gasolina e 6 Km/lt no etanol, e o tanque tem capacidade para 65 litros.
+   - A classe Carro agora tem sobrecarga de construtor, para quando um Carro Flex possuir consumos diferentes entre gasolina e etanol.
+   - A função "Abastece" da classe Carro agora troca o combustível ativo do motor.
+   - O atributo "consumo" da classe Motor foi alterado para um vetor de inteiros "consumos" para acomodar motores Flex.
+   - A classe Motor agora tem sobrecarga de construtor, para quando um Carro Flex possuir consumos diferentes entre gasolina e etanol.
+   - A função "getConsumo" da classe Motor foi alterada para retornar o consumo baseado no ultimo tipo de combustível abastecido.
+   - A função "combustivelNecessario" da classe Motor foi alterada para retornar o consumo baseado no ultimo tipo de combustível abastecido.
+   - A função "combustivelNecessario" da classe Motor foi alterada para retornar um double.
+   - A classe Motor agora tem uma função "combustivelAtivo" que define qual consumo usar.
+   - A função "toString" da classe Motor foi alterada para exibir as informações de um Carro Flex.
+   - O programa agora imprime o "toString" de todos os objetos Carro criados.
+
 Versão 0.3
    - Instanciação de novo objeto Carro do tipo SUV, é movido a gasolina, preparado para ser FLEX, consome 8 Km/lt e o tanque tem capacidade para 55 litros.
 
